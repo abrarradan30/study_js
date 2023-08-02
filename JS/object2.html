@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object2</title>
+</head>
+<body>
+    <h1>Cara membuat object</h1>
+<script>
+// Membuat object
+// 1. object literal
+var mhs1 = {
+    nama : "Abrar",
+    nrp : "201131",
+    email : "abrar@gmail.com",
+    jurusan : "Sistem Informasi"
+}
+
+var mhs2 = {
+    nama : "Dodi",
+    nrp : "201130",
+    email : "dodi@gmail.com",
+    jurusan : "Teknik Kimia"
+}
+
+// 2, funvtion declaration (berulang)
+function buatObjectMahasiswa(nama, nrp, email, jurusan) {
+    var mhs = {};
+    mhs.nama =  nama;
+    mhs.nrp = nrp;
+    mhs.email = email;
+    mhs.jurusan = jurusan;
+    return mhs;
+}
+var mhs3 = buatObjectMahasiswa('jaka', '201120', 'jaka@gmail.com', 'Geologi');
+
+// 3. Constructor
+function Mahasiswa(nama, nrp, email, jurusan) {
+    // var this = {};  x
+    this.nama = nama;
+    this.nrp = nrp;
+    this.email = email;
+    this.jurusan = jurusan;
+    // return this;  x
+}
+var mhs4 = new Mahasiswa('Erik', '2011113', 'erik@gmail.com', 'Teknik Mesin');
+
+</script>
+</body>
+</html>

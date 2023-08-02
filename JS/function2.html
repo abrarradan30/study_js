@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Function2</title>
+</head>
+<body>
+    <h1> Belajar Parameter dan Argumen </h1>
+    
+<script>
+    /*
+function tambah (a,b) {
+    return a + b;
+}
+
+var a = parseInt(prompt('Masukkan nilai a'));   // bernilai int
+var b = parseInt(prompt('Masukkan nilai b'));
+var hasil = tambah(a*2,b*2);
+
+
+function kali(a,b) {
+    return a * b;
+}
+var hasil = kali(tambah(1,2), tambah(3,4))
+console.log(hasil);
+*/
+
+function tambah() {
+    var hasil = 0;
+    for(var i = 0; i < arguments.length; i++) {
+        hasil += arguments[i];
+    }
+    return hasil;
+}
+var coba = tambah(1,2,3,4,5);
+console.log(coba);
+</script>
+    
+</body>
+</html>

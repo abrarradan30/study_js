@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scope</title>
+</head>
+<body>
+    <h1>Belajar Scope</h1>
+
+<script>
+// global scope / window scope
+//var a = 1; (ditimpa)
+var a = 1;
+function tes(a) {
+    // name conflict
+    console.log(a);
+}
+tes(a);
+console.log(a);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Array</title>
+</head>
+<body>
+    <h1>Belajar Array</h1>
+<script>
+// Manipulasi array
+
+// 1. Menambah isi array
+/*
+var arr = [];
+arr[0] = "Abrar";
+arr[1] = "Radan";
+arr[2] = "Arka";
+
+console.log(arr);
+*/
+
+// 2. Menghapus isi array
+/*
+var arr = ["abrar", "radan", "arka"];
+arr[1] = undefined;
+console.log(arr);
+*/
+
+// 3. Menampilkan isi array
+/*
+var arr = ["abrar", "radan", "arka", "budi"];
+
+for(var i = 0; i < arr.length; i ++) {
+    console.log('mahasiswa ke-' + (i+1) + ' : ' + arr[i]);
+}
+*/
+
+// 4. Method pada array
+var arr = ["abrar", "radan", "arka"];
+// 4.1 join
+//console.log(arr.join(' - '));
+
+// 4.2 push & pop (belakang)
+//arr.push("budi", "jaka");
+//arr.pop();
+//arr.pop();
+//console.log(arr.join(' - '));
+
+// 4.3 unshift & shift (depan)
+//arr.unshift("dodi");
+arr.shift();
+console.log(arr.join(' - '));
+
+</script>
+    
+</body>
+</html>
