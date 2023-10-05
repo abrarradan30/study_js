@@ -1,3 +1,5 @@
+// closure : konsep di mana sebuah fungsi dapat mengakses variabel-variabel yang berada di luar cakupan (scope) fungsi tersebut, bahkan setelah fungsi tersebut selesai dijalankan. 
+
 /* function init() {
     // let nama = "Abrar";
     return function(nama) {
@@ -24,3 +26,14 @@ let selamatMalam = ucapkanSalam('Malam');
 
 console.dir(selamatMalam('Radan'));
 */
+
+let add = (function() {
+    let counter = 0;
+    return function() {
+        return ++counter;
+    }
+})();
+
+console.log(add());
+console.log(add());
+console.log(add());
