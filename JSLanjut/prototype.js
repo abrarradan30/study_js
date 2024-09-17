@@ -30,12 +30,12 @@ const methodMahasiswa = {
 
     main: function(jam) {
         this.energi -= jam;
-        console.log(`Halo ${this.nama}, selamat tidur!`);
+        console.log(`Halo ${this.nama}, selamat bermain!`);
     },
 
     tidur: function(jam) {
         this.energi += jam * 2;
-        console.log(`Halo ${this.nama}, selamat bermain!`);
+        console.log(`Halo ${this.nama}, selamat tidur!`);
     }
 };
  
