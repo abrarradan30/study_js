@@ -1,0 +1,23 @@
+[
+    {
+        "nama": "Leo",
+        "nrp": 123,
+        "email": "leo@mhs",
+        "jurusan": "SI",
+        "idDosenWali":1
+    },
+    {
+        "nama": "Budi",
+        "nrp": 124,
+        "email": "budi@mhs",
+        "jurusan": "TI",
+        "idDosenWali": 2
+    },
+    {
+        "nama": "Roni",
+        "nrp": 129,
+        "email": "roni@mhs",
+        "jurusan": "DKV",
+        "idDosenWali": 2
+    }
+]
